@@ -1,17 +1,17 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "하병수",
+  title: "SCU 빅데이터·정보보호학과",
+  description: "Portfolio website of 하병수",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "timeworm74@gmail.com",
+    linkedin: "None",
+    twitter: "None",
+    github: "https://github.com/timeworm",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "네트워크 서비스 분야에서 근무하며, 대학에서 정보보안과 인공지능을 함께 공부하고 있습니다. 배운 내용을 문서로 정리하고 직접 실습하며 성장하는 것을 목표로 합니다.",
+  skills: ["System & Network Security", "Python", "AWS", "SQLD", "linux"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
