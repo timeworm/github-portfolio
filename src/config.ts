@@ -14,26 +14,13 @@ export const siteConfig = {
   skills: ["System & Network Security", "Python", "AWS", "SQL", "Linux"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "GitHub 포트폴리오 만들기",
       description:
         "정보보안과 인공지능을 공부하는 네트워크 엔지니어 하병수의 포트폴리오",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      link: "https://github.com/timeworm",
+
     },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+
   ],
   experience: [
     {
