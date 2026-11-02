@@ -1,5 +1,8 @@
 ---
 import { siteConfig } from "../config";
+import { Image } from "astro:assets";
+import heroImg from "../assets/apply-yourself.jpg";
+
 ---
 
 <div
@@ -129,8 +132,11 @@ import { siteConfig } from "../config";
       height="100%"
       stroke-width={0}></rect>
   </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-    <div>
+    <div
+    class="h-full mx-auto p-8 sm:p-12 md:p-24 flex flex-col md:flex-row items-center justify-between gap-8"
+  >
+    <!-- 왼쪽: 기존 텍스트 -->
+    <div class="md:w-1/2">
       <h2
         class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in"
       >
@@ -148,6 +154,15 @@ import { siteConfig } from "../config";
       >
         {siteConfig.title}
       </p>
+    </div>
+
+    <!-- 오른쪽: 이미지 -->
+    <div class="md:w-1/2 flex justify-center md:justify-end animate-fade-in animation-delay-400">
+      <Image
+        src={heroImg}
+        alt="Apply Yourself"
+        class="w-full max-w-sm md:max-w-md lg:max-w-lg rounded-xl shadow-lg"
+      />
     </div>
   </div>
   <div
