@@ -11,12 +11,12 @@ export const siteConfig = {
   },
   aboutMe:
     "네트워크 서비스 분야에서 근무하며, 대학에서 정보보안과 인공지능을 함께 공부하고 있습니다. 배운 내용을 문서로 정리하고 직접 실습하며 성장하는 것을 목표로 합니다.",
-  skills: ["System & Network Security", "Python", "AWS", "SQLD", "linux"],
+  skills: ["System & Network Security", "Python", "AWS", "SQL", "Linux"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "정보보안과 인공지능을 공부하는 네트워크 엔지니어 하병수의 포트폴리오",
       link: "https://aidevroundup.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
@@ -52,24 +52,15 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Seoul Cyber University (SCU)",
+      degree: "Bachelor of Engineering in Big Data & Information Security",
+      dateRange: "2024 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Currently enrolled in 3rd year, 1st semester",
+        "Major: Big Data & Information Security, College of Engineering",
+        "Focus areas: Information Security and Artificial Intelligence",
       ],
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    
   ],
 };
