@@ -5,8 +5,8 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "timeworm74@gmail.com",
-    linkedin: "None",
-    twitter: "None",
+    linkedin: "https://www.linkedin.com/in/%EB%8F%84%EB%A4%BC%EC%9D%B4-%EA%B3%B0-95b430318/",
+    twitter: "",
     github: "https://github.com/timeworm",
   },
   aboutMe:
