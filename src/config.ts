@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "하병수",
   title: "SCU 빅데이터·정보보호학과",
   description: "Portfolio website of 하병수",
-  accentColor: "#1d4ed8",
+  accentColor: "#93c5fd",
   social: {
     email: "timeworm74@gmail.com",
     linkedin: "https://www.linkedin.com/in/%EB%8F%84%EB%A4%BC%EC%9D%B4-%EA%B3%B0-95b430318/",
