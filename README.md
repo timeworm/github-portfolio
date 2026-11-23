@@ -9,6 +9,4 @@ See [LICENSE.md](LICENSE.md) for the license terms.
 [![Portfolio](https://img.shields.io/badge/Portfolio-방문하기-blue)](https://timeworm.github.io/github-portfolio/)
 
 
-이 페이지는 GitHub Portfolio 강의 프로젝트를 통해 제작한 **✨우당탕탕✨** 개인 포트폴리오 웹사이트입니다.
-
 이 페이지는 GitHub Portfolio 강의 프로젝트를 통해 제작한 <img src="./images/udangtangtang.gif" alt="우당탕탕" width="120"> 개인 포트폴리오 웹사이트입니다.
