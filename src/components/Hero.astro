@@ -7,7 +7,7 @@ import heroImg from "../assets/apply-yourself-bold.jpeg";
 
 <div
   id="hero"
-  class="relative isolate overflow-hidden bg-[var(--page-background)] py-24 md:h-screen"
+  class="relative isolate overflow-hidden bg-[var(--page-background)] min-h-screen flex flex-col pt-24 md:pt-0"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
   <svg
@@ -127,28 +127,32 @@ import heroImg from "../assets/apply-yourself-bold.jpeg";
       stroke-width={0}></rect>
   </svg>
     <div
-    class="h-full mx-auto p-8 sm:p-12 md:p-24 flex flex-col md:flex-row items-center justify-between gap-8"
+    class="w-full flex-1 mx-auto p-8 sm:p-12 md:p-24 flex flex-col md:flex-row items-center justify-between gap-8"
   >
-    <!-- 왼쪽: 기존 텍스트 -->
-    <div class="md:w-1/2">
-      <h2
-        class="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-200 animate-fade-in"
-      >
-        Hello! 👋
-      </h2>
-      <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-100 animate-fade-in animation-delay-200"
-      >
-        I'm <span style={{ color: siteConfig.accentColor }}
-          >{siteConfig.name}</span
-        >
-      </h1>
-      <p
-        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-300 animate-fade-in animation-delay-400"
-      >
-        {siteConfig.title}
-      </p>
-    </div>
+<!-- 왼쪽: 삶의 문구와 자기소개 -->
+<div class="md:w-1/2">
+  <h1
+    class="text-pretty text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight text-gray-100 animate-fade-in"
+  >
+    The years bring
+    <span style={{ color: siteConfig.accentColor }}>wisdom</span>,<br />
+    and every step
+    <span style={{ color: siteConfig.accentColor }}>enriches life</span>.
+  </h1>
+
+  <p
+    class="mt-8 text-lg sm:text-xl font-medium text-gray-200 animate-fade-in animation-delay-200"
+  >
+    Hello, my name is <strong>Byeong-su Ha</strong>.
+  </p>
+
+  <p
+    class="mt-4 text-base sm:text-lg leading-relaxed text-gray-300 animate-fade-in animation-delay-400"
+  >
+    Building on my experience in networking,<br />
+    I’m exploring information security and artificial intelligence.
+  </p>
+</div>
 
     <!-- 오른쪽: 이미지 -->
     <div class="md:w-1/2 flex justify-center md:justify-end animate-fade-in animation-delay-400">
@@ -160,7 +164,7 @@ import heroImg from "../assets/apply-yourself-bold.jpeg";
     </div>
   </div>
   <div
-    class="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-200 animate-fade-in animation-delay-600"
+    class="px-8 sm:px-12 md:px-24 pb-8 sm:pb-12 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-200 animate-fade-in animation-delay-600"
   >
     {
       siteConfig.social?.email && (
