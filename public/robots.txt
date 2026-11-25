@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /github-portfolio/
+
+Sitemap: https://timeworm.github.io/github-portfolio/sitemap-index.xml
